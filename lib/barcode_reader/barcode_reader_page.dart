@@ -163,13 +163,15 @@ class _BarcodeReaderPageState extends State<BarcodeReaderPage> {
   }
 
   Widget _buildCancelButton() {
-    return FlatButton(
+    return TextButton(
       onPressed: () {
         _captureController.pause();
         Navigator.of(context).pop();
       },
-      textColor: widget.buttonColor,
-      child: Text(widget.cancelButtonText),
+      child: Text(
+        widget.cancelButtonText,
+        style: TextStyle(color: widget.buttonColor),
+      ),
     );
   }
 }

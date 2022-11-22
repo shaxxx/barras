@@ -2,6 +2,7 @@ name: barras
 description: A simple and customizable barcode scanning package for Android and iOS. It uses AVCaptureSession in iOS and ZXing in Android.
 version: 0.1.0-nullsafety.1
 homepage: https://github.com/deadblit/barras
+publish_to: none
 
 environment:
   sdk: ">=2.13.4 <3.0.0"
@@ -11,7 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  qrcode_forked: 
+  qrcode_forked:
     git: https://github.com/shaxxx/qrcode_forked
   torch_controller: ^0.4.1
   flutter_beep: ^1.0.0
