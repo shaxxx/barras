@@ -14,7 +14,7 @@ dependencies:
 
   qrcode_forked:
     git: https://github.com/shaxxx/qrcode_forked
-  torch_controller: ^0.4.1
+  torch_controller: ^2.0.1
   flutter_beep: ^1.0.0
 
 dev_dependencies:

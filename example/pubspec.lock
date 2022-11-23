@@ -164,7 +164,7 @@ packages:
       name: torch_controller
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.4.1"
+    version: "2.0.1"
   vector_math:
     dependency: transitive
     description:
@@ -173,5 +173,5 @@ packages:
     source: hosted
     version: "2.1.2"
 sdks:
-  dart: ">=2.17.0-0 <3.0.0"
-  flutter: ">=2.2.3"
+  dart: ">=2.17.0 <3.0.0"
+  flutter: ">=3.0.0"
